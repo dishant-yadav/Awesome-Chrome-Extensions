@@ -2,6 +2,7 @@
 
 body {
   min-height: 100vh;
+  min-width: 450px;
   background: linear-gradient(to right, #ffdf77, #ffa64d);
   overflow: auto;
   width: 90%;

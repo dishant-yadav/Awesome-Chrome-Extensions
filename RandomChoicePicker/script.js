@@ -1,6 +1,5 @@
 const addBtn = document.getElementById("addBtn");
 const ranBtn = document.getElementById("ranBtn");
-const reset = document.getElementById("reset");
 const input = document.getElementById("choicesInput");
 const list = document.getElementById("choiceList");
 const result = document.getElementById("res");
@@ -49,8 +48,6 @@ const resetChoice = () => {
 addBtn.addEventListener("click", addChoice);
 
 ranBtn.addEventListener("click", getRandomChoice);
-
-// reset.addEventListener("click", resetChoice);
 
 // input.addEventListener("input", () => {
 //   const value = (input.value).trim();
